@@ -1,0 +1,264 @@
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: #fff!important;
+}
+.container-contador{
+    background-position: center;
+    background-size: cover;
+    background: url(https://facing.unitru.edu.pe/images/banners/fachada_de_la_universidad.jpg);
+    background-attachment: fixed;
+}
+.container-contador::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,21,82, 0.6);
+}
+.border-title{
+    background-color: #003780;
+    width: 40px;
+    height: 2px;
+    position: relative;
+}
+.border-span{
+    position: absolute;
+    top: -1px;
+    left: 5px;
+    width: 15px;
+    height: 5px;
+    background-color: #003780;
+    border-radius: 5px;
+}
+
+
+/* sdasfas */
+  .overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .7s ease;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay .slideshow{
+    width: 90%;
+    height: 90%;
+    background-color: #F9F9F9;
+    color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    border-radius: 20px;
+  }
+  .slideshow img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .btn_cerrar{
+    position: absolute;
+    top: -15px;
+    right: -12px;
+    font-size: 35px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    transition: all .2s ease;
+  }
+  .btn_cerrar:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  .botones{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #8C2B45;
+  }
+  .botones:hover > i{
+    transform: scale(1.1);
+    transition: all .2s ease;
+  }
+  .atras{
+    left: 20px;
+  }
+  .adelante{
+    right: 20px;
+  }
+  .mdi{
+    pointer-events: none;
+  }
+
+  .cards {
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .card {
+    margin: 10px;
+    width: calc((100% / 3) - 30px);
+    transition: all 0.2s ease-in-out;
+  }
+  @media screen and (max-width: 991px) {
+    .card {
+      width: calc((100% / 3) - 30px);
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .card {
+      width: 100%;
+    }
+  }
+  .card:hover .card__inner {
+    background-color: #003780;
+    transform: scale(1.05);
+  }
+  .card__inner {
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    cursor: pointer;
+    background-color: #001C43;
+    color: #eceef1;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  .card__inner:after {
+    transition: all 0.3s ease-in-out;
+  }
+  .card__inner .fa {
+    width: 100%;
+    margin-top: 0.25em;
+  }
+  .card__expander {
+    transition: all 0.2s ease-in-out;
+    background-color: #333a45;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #eceef1;
+    font-size: 1.5em;
+  }
+  .card__expander .fa {
+    font-size: 0.75em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .card__expander .fa:hover {
+    opacity: 0.9;
+  }
+  .card.is-collapsed .card__inner:after {
+    content: "";
+    opacity: 0;
+  }
+  .card.is-collapsed .card__expander {
+    max-height: 0;
+    min-height: 0;
+    overflow: hidden;
+    margin-top: 0;
+    opacity: 0;
+  }
+  .card.is-expanded .card__inner {
+    background-color: #1abc9c;
+  }
+  .card.is-expanded .card__inner:after {
+    content: "";
+    opacity: 1;
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 15px);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #333a45;
+  }
+  .card.is-expanded .card__inner .fa:before {
+    content: "";
+  }
+  .card.is-expanded .card__expander {
+    max-height: 1000px;
+    min-height: 600px;
+    overflow: visible;
+    margin-top: 30px;
+    opacity: 1;
+  }
+  .card.is-expanded:hover .card__inner {
+    transform: scale(1);
+  }
+  .card.is-inactive .card__inner {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  .card.is-inactive:hover .card__inner {
+    background-color: #949fb0;
+    transform: scale(1);
+  }
+  
+  @media screen and (min-width: 992px) {
+    .card:nth-of-type(3n + 2) .card__expander {
+      margin-left: calc(-100% - 30px);
+    }
+  
+    .card:nth-of-type(3n + 3) .card__expander {
+      margin-left: calc(-200% - 60px);
+    }
+  
+    .card:nth-of-type(3n + 4) {
+      clear: left;
+    }
+  
+    .card__expander {
+      width: calc(300% + 60px);
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .card:nth-of-type(2n + 2) .card__expander {
+      margin-left: calc(-100% - 30px);
+    }
+  
+    .card:nth-of-type(2n + 3) {
+      clear: left;
+    }
+  
+    .card__expander {
+      width: calc(200% + 30px);
+    }
+  }
+
+  

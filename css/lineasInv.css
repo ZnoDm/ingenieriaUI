@@ -1,0 +1,21 @@
+.header-section{
+    background: url(https://images.pexels.com/photos/4490693/pexels-photo-4490693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;    
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.border-title{
+    background-color: #003780;
+    width: 40px;
+    height: 2px;
+    position: relative;
+}
+.border-span{
+    position: absolute;
+    top: -1px;
+    left: 5px;
+    width: 15px;
+    height: 5px;
+    background-color: #003780;
+    border-radius: 5px;
+}

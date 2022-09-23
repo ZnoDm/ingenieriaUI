@@ -1,0 +1,31 @@
+footer{
+    background-color: #1B1811;
+    color: #fff;
+}
+.copy-right{
+    background-color: #222222;
+    color: #fff;
+}
+.ul-footer{
+    padding: 0px;
+    margin: 0px;
+}
+.ul-footer li {
+    list-style: none;
+}
+.ul-footer li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.t-footer{
+    color: #E6AD09;
+  }
+  
+  .t-footer>p,.t-footer>span{
+    color: #FFFFFF;    
+  }
+  
+  .t-footer>.bloque>span>i{
+    color: #E6AD09;
+  }

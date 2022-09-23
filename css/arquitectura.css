@@ -1,0 +1,21 @@
+.header-section{
+    background: url(https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/4.jpg) no-repeat;    
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.border-title{
+    background-color: #003780;
+    width: 40px;
+    height: 2px;
+    position: relative;
+}
+.border-span{
+    position: absolute;
+    top: -1px;
+    left: 5px;
+    width: 15px;
+    height: 5px;
+    background-color: #003780;
+    border-radius: 5px;
+}
