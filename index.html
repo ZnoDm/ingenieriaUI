@@ -1,215 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Favicon -->
-    <link rel="icon" href="https://facing.unitru.edu.pe/images/Logos/logo_facultad_ingeniera_Reducido.png">
-    <title>FACULTAD DE INGENIERÍA</title>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" href="https://facing.unitru.edu.pe/images/Logos/logo_facultad_ingeniera_Reducido.png">
+  <title>FACULTAD DE INGENIERÍA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- End Font Awesome -->
+  <link rel="stylesheet" href="css/navegacion.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/index.css">
 
-    <!-- Font Awesome --> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- End Font Awesome --> 
-    <link rel="stylesheet" href="css/navegacion.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/index.css">
-    <!-- Swiper --> 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-    <style>
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <style>
     .swiper.mySwiper {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
-    .swiper-pagination.myPaginator>.swiper-pagination-bullet-active{
-        width: 1.4rem;
-        border-radius: 0.4rem;
-    }
-    </style>
-</head>
-<body>
-    <header>
-        <nav class="container">
-            <div class="navbare">
-                <a href="" class="mr-auto">
-                    <img class="img-logo" src="./img/FACULTAD_DE_INGENIERA.png" alt="FACULTAD_DE_INGENIERA">
-                </a>
-                <input class="menu-btn" type="checkbox" id="menu-btn" hidden />
-                <label class="menu-icon" for="menu-btn">
-                    <span class="navicon"></span>
-                </label>
-                <ul class="menu">
-                    <li class="has-dropdown">
-                        <a href="#" class="menu-link">
-                            <span class="pr-3">Conócenos</span>
-                            <span class="arrow" style="margin-left: auto;"></span> 
-                        </a>
-                
-                        <ul class="submenu">
-                            <li>
-                                <a href="./reseñahistorica.html" class="menu-link">
-                                  <span class="pr-3">¿Quiénes Somos?</span>
-                                  <span class="arrow" style="margin-left: auto;"></span>
-                                </a>
-                                <ul class="submenu">
-                                  <li>
-                                    <a href="" class="menu-link">Acreditacion</a>
-                                  </li>
-                                </ul>
-                            </li>
-                            <li>
-                                
-                                <a href="" class="menu-link">Acreditacion</a>
-                            </li>
-                            <li>
-                                
-                                <a href="autoridades.html" class="menu-link">Autoridades</a>
-                            </li>
-                            <li>
-                                
-                                <a href="personaladmin.html" class="menu-link">Personal Administrativo</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#" class="menu-link">
-                            <span class="pr-3">Programas Académicos</span>
-                            <span class="arrow"></span> 
-                        </a>
-                
-                        <ul class="submenu">
-                            <li>
-                                <a href="escuelas/arquitectura.html" class="menu-link">ARQUITECTURA Y URBANISMO</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. CIVIL</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. INDUSTRIAL</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. MECÁNICA</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. MECATRÓNICA</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. DE MATERIALES</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. METALÚRGICA</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. DE MINAS</a>
-                            </li>
-                            <li>
-                                <a href="" class="menu-link">ING. DE SISTEMAS</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-dropdown">
-                      <a href="#" class="menu-link">
-                          <span class="pr-3">Novedades</span>
-                          <span class="arrow" style="margin-left: auto;"></span> 
-                      </a>
-                      <ul class="submenu">
-                        <li>
-                            
-                            <a href="" class="menu-link">Noticias</a>
-                        </li>
-                        <li>
-                            
-                            <a href="autoridades.html" class="menu-link">Publicaciones</a>
-                        </li>
-                        <li>
-                            
-                            <a href="" class="menu-link">Proyectos</a>
-                        </li>
-                        <li>
-                            
-                            <a href="" class="menu-link">Translados Y Segunda Especialización</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="has-dropdown">
-                      <a href="lineasInves/lineasInv.html" class="menu-link">
-                          <span class="">Investigación</span>
-                      </a>
-                    </li>
-                    <li class="has-dropdown">
-                      <a href="#" class="menu-link">
-                          <span class="">Contactanos</span>
-                      </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <main style="padding-top: 4rem;">
+    .swiper-pagination.myPaginator>.swiper-pagination-bullet-active {
+      width: 1.4rem;
+      border-radius: 0.4rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <div class="navbare">
+        <a href="./index.html" class="mr-auto">
+          <img class="img-logo" src="./img/FACULTAD_DE_INGENIERA.png" alt="FACULTAD_DE_INGENIERA">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" hidden />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="pr-3">Conócenos</span>
+              <span class="arrow" style="margin-left: auto;"></span>
+            </a>
+
+            <ul class="submenu">
+              <li>
+                <a href="./presentacion.html" class="menu-link">
+                  ¿Quiénes Somos?
+                </a>
+
+              </li>
+              <li>
+
+                <a href="./acreditación.html" class="menu-link">Acreditacion</a>
+              </li>
+              <li>
+
+                <a href="autoridades.html" class="menu-link">Autoridades</a>
+              </li>
+              <li>
+
+                <a href="personaladmin.html" class="menu-link">Personal Administrativo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="pr-3">Programas Académicos</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="submenu">
+              <li>
+                <a href="escuelas/arquitectura.html" class="menu-link">ARQUITECTURA Y URBANISMO</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. CIVIL</a>
+              </li>
+              <li>
+                <a href="escuelas/industrial/index.html" class="menu-link">ING. INDUSTRIAL</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. MECÁNICA</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. MECATRÓNICA</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. DE MATERIALES</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. METALÚRGICA</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. DE MINAS</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. DE SISTEMAS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="pr-3">Novedades</span>
+              <span class="arrow" style="margin-left: auto;"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+
+                <a href="novedades/noticias.html" class="menu-link">Noticias</a>
+              </li>
+              <li>
+
+                <a href="novedades/publicaciones.html" class="menu-link">Publicaciones</a>
+              </li>
+              <li>
+
+                <a href="" class="menu-link">Proyectos</a>
+              </li>
+              <li>
+
+                <a href="" class="menu-link">Translados Y Segunda Especialización</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="investigacion/investigacion.html" class="menu-link">
+              <span class="">Investigación</span>
+            </a>
+          </li>
+          <li class="has-dropdown">
+            <a href="contactanos/contactanos.html" class="menu-link">
+              <span class="">Contactanos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <main style="padding-top: 4rem;">
     <!--SLIDER-->
     <section id="section-slider">
-        <div class="container-fluid">
-          <div class="row align-content-center justify-content-center">
-            <div class="col-12 px-0">
-              <div class="swiper mySwiperSlider" style="height: 550px;">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="container-slider d-flex pb-0 h-100" >
-                            <div class="bloque-texto d-flex flex-column justify-content-center p-5" style="width: 35%;height: 100%;background-color: #003780;">
-                                <a href="" style="color: #FFFFFF;text-decoration: none;"><h2>TÍTULO DE LA NOVEDAD EN EL SLIDER</h2></a>
-                                <p style="color: #FFFFFF;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae harum magni deleniti sint delectus facilis? Excepturi consectetur in corporis veniam rem minima earum soluta! Qui laboriosam velit nesciunt necessitatibus cupiditate?</p>
-                                <div class="botones-slider d-flex align-content-center justify-content-between pt-3">
-                                    <button type="button" class="btn btn-outline-light">Conoce más</button>
-                                    <div class="d-flex ">                                        
-                                        <div class="swiper-button-prev" style="position: inherit!important;margin-top: 0px!important;padding-right: 1rem!important;"></div>
-                                        <div class="swiper-button-next" style="position: inherit!important;margin-top: 0px!important;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bloque-imagen" style="width: 65%;height: 100%;">
-                                
-                            <img src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy" style="object-fit: cover;height: 550px;width: 100%;" alt="...">
-                            </div>
+      <div class="container-fluid">
+        <div class="row align-content-center justify-content-center">
+          <div class="col-12 px-0">
+            <div class="swiper mySwiperSlider" style="height: 550px;">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="container-slider d-flex pb-0 h-100">
+                    <div class="bloque-texto d-flex flex-column justify-content-center p-5"
+                      style="width: 35%;height: 100%;background-color: #003780;">
+                      <a href="" style="color: #FFFFFF;text-decoration: none;">
+                        <h2>TÍTULO DE LA NOVEDAD EN EL SLIDER</h2>
+                      </a>
+                      <p style="color: #FFFFFF;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae harum
+                        magni deleniti sint delectus facilis? Excepturi consectetur in corporis veniam rem minima earum
+                        soluta! Qui laboriosam velit nesciunt necessitatibus cupiditate?</p>
+                      <div class="botones-slider d-flex align-content-center justify-content-between pt-3">
+                        <button type="button" class="btn btn-outline-light">Conoce más</button>
+                        <div class="d-flex ">
+                          <div class="swiper-button-prev"
+                            style="position: inherit!important;margin-top: 0px!important;padding-right: 1rem!important;">
+                          </div>
+                          <div class="swiper-button-next"
+                            style="position: inherit!important;margin-top: 0px!important;"></div>
                         </div>
+                      </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="container-slider d-flex pb-0 h-100" >
-                            <div class="bloque-texto d-flex flex-column justify-content-center p-5" style="width: 35%;height: 100%;background-color: #003780;">
-                                <a href="" style="color: #FFFFFF;text-decoration: none;"><h2>TÍTULO DE LA NOVEDAD EN EL SLIDER</h2></a>
-                                <p style="color: #FFFFFF;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae harum magni deleniti sint delectus facilis? Excepturi consectetur in corporis veniam rem minima earum soluta! Qui laboriosam velit nesciunt necessitatibus cupiditate?</p>
-                                <div class="botones-slider d-flex align-content-center justify-content-between pt-3">
-                                    <button type="button" class="btn btn-outline-light">Conoce más</button>
-                                    <div class="d-flex ">                                        
-                                        <div class="swiper-button-prev" style="position: inherit!important;margin-top: 0px!important;padding-right: 1rem!important;"></div>
-                                        <div class="swiper-button-next" style="position: inherit!important;margin-top: 0px!important;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bloque-imagen" style="width: 65%;height: 100%;">
-                                
-                            <img src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy" style="object-fit: cover;height: 550px;width: 100%;" alt="...">
-                            </div>
-                        </div>
+                    <div class="bloque-imagen" style="width: 65%;height: 100%;">
+
+                      <img
+                        src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        loading="lazy" style="object-fit: cover;height: 550px;width: 100%;" alt="...">
                     </div>
+                  </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-slide">
+                  <div class="container-slider d-flex pb-0 h-100">
+                    <div class="bloque-texto d-flex flex-column justify-content-center p-5"
+                      style="width: 35%;height: 100%;background-color: #003780;">
+                      <a href="" style="color: #FFFFFF;text-decoration: none;">
+                        <h2>TÍTULO DE LA NOVEDAD EN EL SLIDER</h2>
+                      </a>
+                      <p style="color: #FFFFFF;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae harum
+                        magni deleniti sint delectus facilis? Excepturi consectetur in corporis veniam rem minima earum
+                        soluta! Qui laboriosam velit nesciunt necessitatibus cupiditate?</p>
+                      <div class="botones-slider d-flex align-content-center justify-content-between pt-3">
+                        <button type="button" class="btn btn-outline-light">Conoce más</button>
+                        <div class="d-flex ">
+                          <div class="swiper-button-prev"
+                            style="position: inherit!important;margin-top: 0px!important;padding-right: 1rem!important;">
+                          </div>
+                          <div class="swiper-button-next"
+                            style="position: inherit!important;margin-top: 0px!important;"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bloque-imagen" style="width: 65%;height: 100%;">
+
+                      <img
+                        src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        loading="lazy" style="object-fit: cover;height: 550px;width: 100%;" alt="...">
+                    </div>
+                  </div>
+                </div>
               </div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
+      </div>
     </section>
     <!--PLABRAS BIENVENIDA-->
     <section id="palabras-rector">
       <div class="container">
         <div class="row align-content-center justify-content-center py-5 w-100">
           <div class="col-12 pt-5">
-            <h2 style="color: #333333;">PALABRAS DEL <span style="color: #003780;">DECANO</span></h2>            
+            <h2 style="color: #333333;">PALABRAS DEL <span style="color: #003780;">DECANO</span></h2>
             <div class="border-title">
               <span class="border-span"></span>
             </div>
@@ -219,17 +239,26 @@
               <div class="col-6">
                 <h4 style="color: #001839;">Dr. Miguel Armando Benites Gutiérrez</h4>
                 <p class="pt-2" style="text-align: justify;">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum soluta ab impedit vitae explicabo. In deleniti quas dolorum nostrum vel beatae laboriosam possimus, repudiandae doloribus, dolores adipisci officia aut.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel, nam itaque id alias expedita repudiandae dolorum animi voluptatem earum laborum molestiae cumque labore porro assumenda rem inventore perferendis. Illo!
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ipsum dolorum repellendus culpa fugiat inventore sapiente voluptatum. Magni, praesentium pariatur culpa libero mollitia facere ullam quasi inventore corporis recusandae ratione!
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum soluta ab impedit vitae
+                  explicabo. In deleniti quas dolorum nostrum vel beatae laboriosam possimus, repudiandae doloribus,
+                  dolores adipisci officia aut.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel, nam itaque id alias expedita
+                  repudiandae dolorum animi voluptatem earum laborum molestiae cumque labore porro assumenda rem
+                  inventore perferendis. Illo!
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ipsum dolorum repellendus culpa
+                  fugiat inventore sapiente voluptatum. Magni, praesentium pariatur culpa libero mollitia facere ullam
+                  quasi inventore corporis recusandae ratione!
                 </p>
               </div>
               <div class="col-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2pqfLDEoVK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2pqfLDEoVK4"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
             </div>
           </div>
-            
+
         </div>
       </div>
     </section>
@@ -237,9 +266,9 @@
     <section id="contador">
       <div class="container-fluid">
         <div class="row align-content-center justify-content-center">
-          <div class="col-12 px-0">            
+          <div class="col-12 px-0">
             <div class="container-contador" style="height: 200px;">
-              
+
               <div class="row align-content-center h-100 w-100">
                 <div class="col-4">
                   <div class="counter-container px-5 text-center">
@@ -267,80 +296,86 @@
     </section>
     <!--Noticias-->
     <section id="section-noticias">
-        <div class="container py-3">
-          <div class="row align-content-center justify-content-center py-3">
-            <div class="col-12">
-              <div class="d-flex justify-content-between">
-                <div>
-                  <h2 style="color: #333333;">NOTICIAS</span></h2>            
-                  <div class="border-title">
-                    <span class="border-span"></span>
-                  </div>
-                </div>
-                <div>
-                  <a class="" href="#"> Ver todos</a>
+      <div class="container py-3">
+        <div class="row align-content-center justify-content-center py-3">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h2 style="color: #333333;">NOTICIAS</span></h2>
+                <div class="border-title">
+                  <span class="border-span"></span>
                 </div>
               </div>
-            </div>
-            <div class="col-11">
-              <div class="swiper mySwiper2 my-2">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="card card-inge">
-                      <div class="card-body p-0">
-                          <div class="container-card-img">
-                            <img src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy" class="img-fluid card-img-top" alt="...">
-                          </div>
-                        
-                        <div class="p-4">
-                          <p>02 AGO, 2022</p>
-                          <h5>Herramientas para la gestion de seguridad y salud en el trabajo</h5>
-                          <a href="#" class="btn btn-outline-dark">Leer más</a>
-                        </div>  
-        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="card">
-                      <div class="card-body p-0">
-                          <div class="container-card-img">
-                            <img src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy" class="img-fluid card-img-top" alt="...">
-                          </div>
-                        
-                        <div class="p-4">
-                          <p>02 AGO, 2022</p>
-                          <h5>Herramientas para la gestion de seguridad y salud en el trabajo</h5>
-                          <a href="#" class="btn btn-outline-dark">Leer más</a>
-                        </div>  
-        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="card">
-                      <div class="card-body p-0">
-                          <div class="container-card-img">
-                            <img src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy" class="img-fluid card-img-top" alt="...">
-                          </div>
-                        
-                        <div class="p-4">
-                          <p>02 AGO, 2022</p>
-                          <h5>Herramientas para la gestion de seguridad y salud en el trabajo</h5>
-                          <a href="#" class="btn btn-outline-dark">Leer más</a>
-                        </div>  
-        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
+              <div>
+                <a class="" href="#"> Ver todos</a>
               </div>
             </div>
           </div>
+          <div class="col-11">
+            <div class="swiper mySwiper2 my-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card card-inge">
+                    <div class="card-body p-0">
+                      <div class="container-card-img">
+                        <img
+                          src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                          loading="lazy" class="img-fluid card-img-top" alt="...">
+                      </div>
+
+                      <div class="p-4">
+                        <p>02 AGO, 2022</p>
+                        <h5>Herramientas para la gestion de seguridad y salud en el trabajo</h5>
+                        <a href="#" class="btn btn-outline-dark">Leer más</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body p-0">
+                      <div class="container-card-img">
+                        <img
+                          src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                          loading="lazy" class="img-fluid card-img-top" alt="...">
+                      </div>
+
+                      <div class="p-4">
+                        <p>02 AGO, 2022</p>
+                        <h5>Herramientas para la gestion de seguridad y salud en el trabajo</h5>
+                        <a href="#" class="btn btn-outline-dark">Leer más</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body p-0">
+                      <div class="container-card-img">
+                        <img
+                          src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                          loading="lazy" class="img-fluid card-img-top" alt="...">
+                      </div>
+
+                      <div class="p-4">
+                        <p>02 AGO, 2022</p>
+                        <h5>Herramientas para la gestion de seguridad y salud en el trabajo</h5>
+                        <a href="#" class="btn btn-outline-dark">Leer más</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <!--Publicaciones-->
     <div class="overlay">
       <div class="slideshow">
@@ -356,45 +391,45 @@
     </div>
 
     <section id="section-publicaciones" style="background-color: #F9F9F9;">
-        <div class="container py-3">
-          <div class="row align-content-center justify-content-center py-3">
-            <div class="col-12">
-              <div class="d-flex justify-content-between">
-                <div>
-                  <h2 style="color: #333333;">PUBLICACIONES</span></h2>            
-                  <div class="border-title">
-                    <span class="border-span"></span>
-                  </div>
-                </div>
-                <div>
-                  <a class="" href="#"> Ver más</a>
+      <div class="container py-3">
+        <div class="row align-content-center justify-content-center py-3">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h2 style="color: #333333;">PUBLICACIONES</span></h2>
+                <div class="border-title">
+                  <span class="border-span"></span>
                 </div>
               </div>
+              <div>
+                <a class="" href="#"> Ver más</a>
+              </div>
             </div>
-            <div class="col-11">
-              <div class="swiper mySwiper3 my-2">
-                <div class="swiper-wrapper" data-slider-nav-autoplay-interval="5000">
-                  <div class="swiper-slide galeria">
-                    <img src="./img/comunicados/0_Comunicados_090520220200.jpg" style="height: 400px;" alt="..." 
-                        data-img-mostrar="0">
-                  </div>
-                  <div class="swiper-slide galeria">
-                    <img src="./img/comunicados/0_Comunicados_180720220835.jpg" style="height: 400px;"  alt="..." 
-                        data-img-mostrar="1">
-                  </div>
-                  <div class="swiper-slide galeria">
-                    <img src="./img/comunicados/0_Comunicados_090520220200.jpg" style="height: 400px;" alt="..." 
-                        data-img-mostrar="2">
-                  </div>
-                  <div class="swiper-slide galeria">
-                    <img src="./img/comunicados/0_Comunicados_180720220835.jpg" style="height: 400px;"  alt="..." 
-                        data-img-mostrar="3">
-                  </div>
+          </div>
+          <div class="col-11">
+            <div class="swiper mySwiper3 my-2">
+              <div class="swiper-wrapper" data-slider-nav-autoplay-interval="5000">
+                <div class="swiper-slide galeria">
+                  <img src="./img/comunicados/0_Comunicados_090520220200.jpg" style="height: 400px;" alt="..."
+                    data-img-mostrar="0">
+                </div>
+                <div class="swiper-slide galeria">
+                  <img src="./img/comunicados/0_Comunicados_180720220835.jpg" style="height: 400px;" alt="..."
+                    data-img-mostrar="1">
+                </div>
+                <div class="swiper-slide galeria">
+                  <img src="./img/comunicados/0_Comunicados_090520220200.jpg" style="height: 400px;" alt="..."
+                    data-img-mostrar="2">
+                </div>
+                <div class="swiper-slide galeria">
+                  <img src="./img/comunicados/0_Comunicados_180720220835.jpg" style="height: 400px;" alt="..."
+                    data-img-mostrar="3">
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <section id="section-contacto">
@@ -409,118 +444,121 @@
         </div>
       </div>
     </section>
-    </main>
+  </main>
 
-    <!--Footer-->
-    <footer>
-        <div class="container">
-            <div class="row pt-5 pb-3 pb-md-4 py-lg-5 align-content-center justify-content-center">            
-                <div class="col-10">
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="d-flex justify-content-center justify-content-md-start">
-                                <img src="img/logo_facultad_ingeniera_Reducido.png" style="height: 210px" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-8">
-                            <div class="row">
-                                <div class="col-12 col-lg-6 t-footer py-2">
-                                    <h6 style="margin-bottom: 0.2rem">Contacto</h6>
-                                    <div class="mb-2" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
-                                    <div class="bloque text-white" style="padding-left: 0.8rem;font-size: 15px!important">
-                                        <span>
-                                            <i class="fas fa-phone-alt"></i> &nbsp; (044) 209020
-                                        </span> <br>
-                                        <span>
-                                            <i class="fas fa-envelope"></i> &nbsp; tdsgunt@unitru.edu.pe
-                                        </span> <br>
-                                        <span>
-                                            <i class="fas fa-globe"></i> &nbsp; https://www.unitru.edu.pe/
-                                        </span>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-12 col-lg-6 t-footer py-2">
-                                    <h6 style="margin-bottom: 0.2rem">Sobre este Portal</h6>
-                                    <div class="mb-3" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
-                            
-                                    <div class=" text-white" style="padding-left: 0.8rem;font-size:15px!important">
-                                        <span> Mapa de Sitio </span>  <br>
-                                        <span> Términos de uso </span> <br>
-                                        <span> Políticas de Privacidad </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-lg-6 t-footer py-2">
-                                    <h6 style="margin-bottom: 0.2rem">Síguenos en: </h6>
-                                    <div class="mb-3" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
-                                    <div class="d-flex justify-content-center justify-content-md-start" style="color: #FFFFFF!important;padding-left: 0.8rem">
-                                        <h2 class="px-2">
-                                            <i class="fab fa-facebook"></i>
-                                        </h2>
-                                        <h2 class="px-2">
-                                            <i class="fab fa-instagram"></i>
-                                        </h2>
-                                        <h2 class="px-2">
-                                            <i class="fab fa-linkedin"></i>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="row pt-5 pb-3 pb-md-4 py-lg-5 align-content-center justify-content-center">
+        <div class="col-10">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="d-flex justify-content-center justify-content-md-start">
+                <img src="img/logo_facultad_ingeniera_Reducido.png" style="height: 210px" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+              <div class="row">
+                <div class="col-12 col-lg-6 t-footer py-2">
+                  <h6 style="margin-bottom: 0.2rem">Contacto</h6>
+                  <div class="mb-2" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
+                  <div class="bloque text-white" style="padding-left: 0.8rem;font-size: 15px!important">
+                    <span>
+                      <i class="fas fa-phone-alt"></i> &nbsp; (044) 209020
+                    </span> <br>
+                    <span>
+                      <i class="fas fa-envelope"></i> &nbsp; tdsgunt@unitru.edu.pe
+                    </span> <br>
+                    <span>
+                      <i class="fas fa-globe"></i> &nbsp; https://www.unitru.edu.pe/
+                    </span>
+                  </div>
                 </div>
 
+                <div class="col-12 col-lg-6 t-footer py-2">
+                  <h6 style="margin-bottom: 0.2rem">Sobre este Portal</h6>
+                  <div class="mb-3" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
+
+                  <div class=" text-white" style="padding-left: 0.8rem;font-size:15px!important">
+                    <span> Mapa de Sitio </span> <br>
+                    <span> Términos de uso </span> <br>
+                    <span> Políticas de Privacidad </span>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 t-footer py-2">
+                  <h6 style="margin-bottom: 0.2rem">Síguenos en: </h6>
+                  <div class="mb-3" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
+                  <div class="d-flex justify-content-center justify-content-md-start"
+                    style="color: #FFFFFF!important;padding-left: 0.8rem">
+                    <h2 class="px-2">
+                      <i class="fab fa-facebook"></i>
+                    </h2>
+                    <h2 class="px-2">
+                      <i class="fab fa-instagram"></i>
+                    </h2>
+                    <h2 class="px-2">
+                      <i class="fab fa-linkedin"></i>
+                    </h2>
+                  </div>
+                </div>
+              </div>
             </div>
-
-    </footer>
-    <div class="copy-right">
-        <div class="container">
-            <p class="text-center py-3" style="margin-bottom: 0px;font-size: 13px">
-                Copyright © 2022 Facultad de Ingeniería Química. Todos los derechos reservados. Diseñado por Administrador Web.
-            </p>
+          </div>
         </div>
+
+      </div>
+
+  </footer>
+  <div class="copy-right">
+    <div class="container">
+      <p class="text-center py-3" style="margin-bottom: 0px;font-size: 13px">
+        Copyright © 2022 Facultad de Ingeniería Química. Todos los derechos reservados. Diseñado por Administrador Web.
+      </p>
     </div>
+  </div>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
-        const counters = document.querySelectorAll('.counter');
-        counters.forEach( (counter)=>{
-            counter.innerHTML = '0';
-            const updateCounter = ()=>{
-                const target =+ counter.getAttribute('data-target');
-                const  c =+ counter.innerHTML;
-                const increment =  target/250;
-                if( c < target){
-                    counter.innerHTML = `${Math.ceil(c+increment)}`;
-                }
-                setTimeout(updateCounter,1);
-            }
-            updateCounter();
-        })
-    </script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiperSlider", {
-            pagination: {
-            el: ".swiper-pagination",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach((counter) => {
+      counter.innerHTML = '0';
+      const updateCounter = () => {
+        const target = + counter.getAttribute('data-target');
+        const c = + counter.innerHTML;
+        const increment = target / 250;
+        if (c < target) {
+          counter.innerHTML = `${Math.ceil(c + increment)}`;
+        }
+        setTimeout(updateCounter, 1);
+      }
+      updateCounter();
+    })
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-        var swiper = new Swiper(".mySwiper3", {
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiperSlider", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var swiper = new Swiper(".mySwiper3", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
         "@0.00": {
           slidesPerView: 1,
           spaceBetween: 20,
@@ -530,7 +568,7 @@
           spaceBetween: 20,
         },
         "@1.00": {
-          slidesPerView: 2,            
+          slidesPerView: 2,
           spaceBetween: 20,
         },
         "@1.50": {
@@ -538,14 +576,14 @@
           spaceBetween: 20,
         },
       },
-      });
+    });
 
-      var swiper = new Swiper(".mySwiper2", {
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
+    var swiper = new Swiper(".mySwiper2", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
         "@0.00": {
           slidesPerView: 1,
           spaceBetween: 20,
@@ -555,7 +593,7 @@
           spaceBetween: 20,
         },
         "@1.00": {
-          slidesPerView: 2,            
+          slidesPerView: 2,
           spaceBetween: 20,
         },
         "@1.50": {
@@ -563,8 +601,9 @@
           spaceBetween: 20,
         },
       },
-      });
-    </script>
-    <script src="./js/comunicados.js"></script>
+    });
+  </script>
+  <script src="./js/comunicados.js"></script>
 </body>
+
 </html>

@@ -114,3 +114,25 @@
   .mdi{
     pointer-events: none;
   }
+
+  /* BREADCRUMBS */
+a{
+  text-decoration: none!important;
+  color: black;
+}
+
+.breadcrumb-right-arrow .breadcrumb-item+.breadcrumb-item::before {
+  content: "›";
+vertical-align:center;
+font-size:20px;
+line-height:20px;
+color:black!important;
+font-weight: bold;
+
+}
+.breadcrumb-right-arrow{
+  background-color:white;
+  border-bottom: 1px solid #C9D1D3;
+  font-size:14px;
+  border-radius: 0;
+}

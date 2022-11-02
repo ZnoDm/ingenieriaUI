@@ -8,8 +8,6 @@
   <!-- Favicon -->
   <link rel="icon" href="https://facing.unitru.edu.pe/images/Logos/logo_facultad_ingeniera_Reducido.png">
   <title>FACULTAD DE INGENIERÍA</title>
-
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
@@ -18,10 +16,11 @@
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- End Font Awesome -->
-  <link rel="stylesheet" href="css/navegacion.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/conocenos.css">
+  <link rel="stylesheet" href="../css/navegacion.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/novedades.css">
+
   <!-- Swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <style>
@@ -41,8 +40,8 @@
   <header>
     <nav class="container">
       <div class="navbare">
-        <a href="./index.html" class="mr-auto">
-          <img class="img-logo" src="./img/FACULTAD_DE_INGENIERA.png" alt="FACULTAD_DE_INGENIERA">
+        <a href="../index.html" class="mr-auto">
+          <img class="img-logo" src="../img/FACULTAD_DE_INGENIERA.png" alt="FACULTAD_DE_INGENIERA">
         </a>
         <input class="menu-btn" type="checkbox" id="menu-btn" hidden />
         <label class="menu-icon" for="menu-btn">
@@ -90,7 +89,7 @@
                 <a href="" class="menu-link">ING. CIVIL</a>
               </li>
               <li>
-                <a href="escuelas/industrial.html" class="menu-link">ING. INDUSTRIAL</a>
+                <a href="escuelas/industrial/index.html" class="menu-link">ING. INDUSTRIAL</a>
               </li>
               <li>
                 <a href="" class="menu-link">ING. MECÁNICA</a>
@@ -128,7 +127,7 @@
               </li>
               <li>
 
-                <a href="" class="menu-link">Proyectos</a>
+                <a href="proyectos.html" class="menu-link">Proyectos</a>
               </li>
               <li>
 
@@ -151,6 +150,8 @@
     </nav>
   </header>
 
+
+
   <main style="padding-top: 4rem;">
     <!--PORTADA-->
     <section id="header-section">
@@ -162,7 +163,7 @@
                 <div class="row align-content-center w-100 h-100 py-5">
                   <div class="col-md-7 col-lg-6 py-5">
                     <h1 class="px-4 py-2" style="background-color: #002F7B;border-radius: 2px;color: #ffffff;">
-                      <b>PERSONAL ADMINISTRATIVO DE DECANATO</b>
+                      <b>PUBLICACIONES</b>
                     </h1>
                   </div>
                   <div class="col-md-5 col-lg-6 offset-md-2 ">
@@ -174,83 +175,88 @@
         </div>
       </div>
     </section>
-    <!--breadcrumb-->
+    <!--BREADCRUMB-->
     <section>
-      <nav class="px-md-5">
+      <nav class="px-5">
         <ol class="breadcrumb breadcrumb-right-arrow">
           <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-          <li class="breadcrumb-item active">Personal Administrativo</li>
+          <li class="breadcrumb-item active">Publicaciones</li>
         </ol>
       </nav>
     </section>
-    <!--personal-->
-    <section id="personal">
-      <div class="container">
-        <div class="row p-5">
-          <div class="col-md-6 col-lg-4 pb-5" style="padding-inline: 50px;">
-            <div class="personal position-relative overflow-hidden">
-              <img
-                src="https://st.depositphotos.com/1005730/1289/i/600/depositphotos_12899586-stock-photo-construction-engineer.jpg"
-                alt="">
-              <div class="team-text text-center p-2">
-                <div style="height: 64px;">
-                  <h6><b>JULIO EDUARDO AZABACHE GUEVARA</b> </h6>
-                  <h6 class="ocupacion">SECRETARIO DE DECANATO</h6>
-                </div>
-                <button type="button" class="btn ver">Ver más</button>
-              </div>
 
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 pb-5" style="padding-inline: 50px;">
-            <div class="personal position-relative  overflow-hidden">
-              <img
-                src="https://st.depositphotos.com/1005730/1289/i/600/depositphotos_12899586-stock-photo-construction-engineer.jpg"
-                alt="">
-              <div class="team-text text-center p-2">
-                <div style="height: 64px;">
-                  <h6><b>NANCY DEYANIRA PONCE ROMERO</b> </h6>
-                  <h6 class="ocupacion">SECRETARIA DE MESA DE PARTES DE DECANATOO</h6>
+    <!--PLABRAS BIENVENIDA-->
+    <section>
+        <div class="container-fluid py-6 mb-5">
+            <div class="container">
+                <div class="row g-0 publicacioness">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="publicaciones position-relative">
+                            <div class="bg-publicacion text-center p-4">
+                                <h5 class="mt-2">Lorem ipsum dolor sit amet.</h5>
+                                <span>25 DE AGOSTO 2021</span>
+                            </div>
+                            <div class="position-relative">
+                                <img class="img-fluid" src="../img/comunicados/0_Comunicados_090520220200.jpg" alt="">
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><b>Más información</b> </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="publicaciones position-relative">
+                            <div class="bg-publicacion text-center p-4">
+                                <h5 class="mt-2">Capacitación Web al Personal Administrativo</h5>
+                                <span>25 DE AGOSTO 2021</span>
+                            </div>
+                            <div class="position-relative">
+                                <img class="img-fluid" src="https://facing.unitru.edu.pe/images/2021/Capacitaci%C3%B3n%20web%20al%20personal.jpg" alt="">
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><b>Más información</b> </a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="publicaciones position-relative">
+                            <div class="bg-publicacion text-center p-4">
+                                <h5 class="mt-2">Visita al colorado school</h5>
+                                <span>25 DE AGOSTO 2021</span>
+                            </div>
+                            <div class="position-relative">
+                                <img class="img-fluid" src="https://facing.unitru.edu.pe/images/2021/visita%20colorado%20School.jpg" alt="">
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><b>Más información</b> </a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <div class="publicaciones position-relative">
+                            <div class="bg-publicacion text-center p-4">
+                                <h5 class="mt-2">Tuna Femenina</h5>
+                                <span>25 DE AGOSTO 2021</span>
+                            </div>
+                            <div class="position-relative">
+                                <img class="img-fluid" src="https://facing.unitru.edu.pe/images/2021/TUNA_FEMENINA_1.gif" alt="">
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><b>Más información</b> </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
-                <button type="button" class="btn ver">Ver más</button>
-              </div>
-
             </div>
-          </div>
-          <div class="col-md-6 col-lg-4 pb-5" style="padding-inline: 50px;">
-            <div class="personal position-relative  overflow-hidden">
-              <img
-                src="https://st.depositphotos.com/1005730/1289/i/600/depositphotos_12899586-stock-photo-construction-engineer.jpg"
-                alt="">
-              <div class="team-text text-center p-2">
-                <div style="height: 64px;">
-                  <h6><b>FREDY CÉSAR MORALES GRADOS</b> </h6>
-                  <h6 class="ocupacion">PERSONAL DE DECANATO</h6>
-                </div>
-                <button type="button" class="btn ver">Ver más</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 pb-5" style="padding-inline: 50px;">
-            <div class="personal position-relative  overflow-hidden">
-              <img
-                src="https://st.depositphotos.com/1005730/1289/i/600/depositphotos_12899586-stock-photo-construction-engineer.jpg"
-                alt="">
-              <div class="team-text text-center p-2">
-                <div style="height: 64px;">
-                  <h6><b>VICENTE ANDRES GAMARRA ARROYO</b> </h6>
-                  <h6 class="ocupacion">CONSERJE DE DECANATO</h6>
-                </div>
-                <button type="button" class="btn ver">Ver más</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
-
+    <!--CONTADOR-->
   </main>
+
   <!--Footer-->
   <footer>
     <div class="container">
@@ -348,48 +354,25 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiperSlider", {
+    var swiper = new Swiper(".Swipertrending", {
+      spaceBetween: 30,
+      centeredSlides: true,
+       loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    var swiper = new Swiper(".mySwiper", {
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-
-    var swiper = new Swiper(".mySwiper2", {
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        "@0.00": {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        "@0.75": {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        "@1.00": {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        "@1.50": {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
+        nextEl: ".noticia-button-next",
+        prevEl: ".noticia-button-prev",
       },
     });
   </script>
+  <script src="../js/comunicados.js"></script>
 </body>
 
 </html>

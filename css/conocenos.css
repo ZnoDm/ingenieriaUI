@@ -1,0 +1,177 @@
+ul
+{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+a{
+    text-decoration: none!important;
+}
+/* NAVEGADOR-CONÓCENOS */
+.var_nav
+{
+position:relative;
+background:#E9ECEF; 
+width:100%;
+height:70px;
+margin-bottom:5px;
+}
+.link_bg
+{
+ width:70px;
+ height:70px;
+ position:absolute;
+ background:#004AAD;
+ color:#fff;
+ z-index:2;
+}
+.link_bg i
+{
+ position:relative;
+}
+.link_title
+{
+position:absolute;
+width:100%;
+z-index:3;
+color:#fff;
+}
+.link_title:hover .icon
+{
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+-ms-transform:rotate(360deg);
+transform:rotate(360deg);  
+}
+.var_nav:hover .link_bg
+{
+width:100%;
+background:#004AAD;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;  
+
+}
+.var_nav:hover a .font-indice
+{
+font-weight:bold;
+color:white;
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out; 
+-o-transition:all .5s ease-in-out; 
+-ms-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;  
+}
+.icon
+{
+position:relative;
+width:70px;
+height:70px;
+text-align:center;
+color:#fff;
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out; 
+-o-transition:all .5s ease-in-out; 
+-ms-transition:all .5s ease-in-out;   
+float:left;
+transition:all .5s ease-in-out;   
+z-index:3;
+}
+.icon i{top:22px;position:relative;}
+.iconos{
+    font-size:25px;
+}
+.indice{
+    display:block;
+position:absolute;
+float:left;
+font-family:arial;
+color:#fff;
+text-decoration:none;
+width:100%;
+height:70px;
+text-align:center;
+text-decoration:none;
+}
+.font-indice{
+    margin-top:25px;
+display:block;
+color:#004AAD;
+
+}
+.aside-nav .active{
+    font-weight:bold;
+    color:white;
+    width:100%;
+    background:#004AAD!important;
+}
+.active .font-indice{
+    font-weight:bold;
+    color:white;
+
+}
+/* HEADER */
+.header-section{
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(#004bad5e,rgba(0,0,0,0.8)),url(https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/5.jpg);
+}
+
+/* MISION Y VISION */
+.line-yellow{
+    background-image: linear-gradient(to right, #BDA44E, #d6b032);height: 12px;width: 100%;
+}
+
+/* PERSONAL ADMINISTRATIVO */
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .personal .team-text {
+    position: absolute;
+    margin-top: -70px;
+    height: 120px;
+    width:100%;
+    transition: .5s;
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+  
+  .personal:hover .team-text {
+    margin-top: -115px;
+    background-color:#1A3A85;
+    color:white;
+  }
+  .personal:hover .ocupacion{
+    opacity: 1;
+    color:#BDA44D;
+  }
+  
+  .ver{
+    font-size: small;
+    background-color:#BDA44D;
+  }
+  .personal{
+    height: 300px;
+    border-radius: 10px;
+  }
+  .personal img{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+    position: relative;
+
+  }
+
+  .personal h6{
+    font-size: small;
+    
+  }
+  .ocupacion{
+    color:#1A3A85;
+    
+  }

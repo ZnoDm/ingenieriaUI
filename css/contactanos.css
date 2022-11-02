@@ -1,0 +1,44 @@
+.header-section{
+    background-image:linear-gradient(rgba(0,73,173,0.3),rgba(27,24,17,0.7)),url(https://facing.unitru.edu.pe/images/2020/slider/Banner_especialidades.png) ;    
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.border-title{
+    background-color: #003780;
+    width: 40px;
+    height: 2px;
+    position: relative;
+}
+.border-span{
+    position: absolute;
+    top: -1px;
+    left: 5px;
+    width: 15px;
+    height: 5px;
+    background-color: #003780;
+    border-radius: 5px;
+}
+
+
+
+.contacto {
+    background: #EBF0F8;
+    height: 290px;
+}
+
+.row-space-1 div{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.sm-margin-b-2 {
+    margin-bottom: 2px!important;
+}
+.row-space-1 {
+    margin-right: -1px;
+    margin-left: -1px;
+}
+.contacto-info h5{
+    color:#0049AD;
+}

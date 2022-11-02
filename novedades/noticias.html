@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" href="https://facing.unitru.edu.pe/images/Logos/logo_facultad_ingeniera_Reducido.png">
+  <title>FACULTAD DE INGENIERÍA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- End Font Awesome -->
+  <link rel="stylesheet" href="../css/navegacion.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/novedades.css">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <style>
+    .swiper.mySwiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-pagination.myPaginator>.swiper-pagination-bullet-active {
+      width: 1.4rem;
+      border-radius: 0.4rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <div class="navbare">
+        <a href="../index.html" class="mr-auto">
+          <img class="img-logo" src="../img/FACULTAD_DE_INGENIERA.png" alt="FACULTAD_DE_INGENIERA">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" hidden />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="pr-3">Conócenos</span>
+              <span class="arrow" style="margin-left: auto;"></span>
+            </a>
+
+            <ul class="submenu">
+              <li>
+                <a href="./presentacion.html" class="menu-link">
+                  ¿Quiénes Somos?
+                </a>
+
+              </li>
+              <li>
+
+                <a href="./acreditación.html" class="menu-link">Acreditacion</a>
+              </li>
+              <li>
+
+                <a href="autoridades.html" class="menu-link">Autoridades</a>
+              </li>
+              <li>
+
+                <a href="personaladmin.html" class="menu-link">Personal Administrativo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="pr-3">Programas Académicos</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="submenu">
+              <li>
+                <a href="escuelas/arquitectura.html" class="menu-link">ARQUITECTURA Y URBANISMO</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. CIVIL</a>
+              </li>
+              <li>
+                <a href="escuelas/industrial/index.html" class="menu-link">ING. INDUSTRIAL</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. MECÁNICA</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. MECATRÓNICA</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. DE MATERIALES</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. METALÚRGICA</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. DE MINAS</a>
+              </li>
+              <li>
+                <a href="" class="menu-link">ING. DE SISTEMAS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="pr-3">Novedades</span>
+              <span class="arrow" style="margin-left: auto;"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+
+                <a href="" class="menu-link">Noticias</a>
+              </li>
+              <li>
+
+                <a href="autoridades.html" class="menu-link">Publicaciones</a>
+              </li>
+              <li>
+
+                <a href="" class="menu-link">Proyectos</a>
+              </li>
+              <li>
+
+                <a href="" class="menu-link">Translados Y Segunda Especialización</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="lineasInves/lineasInv.html" class="menu-link">
+              <span class="">Investigación</span>
+            </a>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link">
+              <span class="">Contactanos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <main style="padding-top: 4rem;">
+    <!--PORTADA-->
+    <section id="header-section">
+      <div class="container-fluid">
+        <div class="row align-content-center justify-content-center h-100">
+          <div class="col-12 px-0">
+            <div class="header-section" style="height: auto;">
+              <div class="container">
+                <div class="row align-content-center w-100 h-100 py-5">
+                  <div class="col-6 py-5">
+                    <h1 class="px-4 py-2" style="background-color: #002F7B;border-radius: 2px;color: #ffffff;">
+                      <b>NOTICIAS</b>
+                    </h1>
+                  </div>
+                  <div class="col-4 offset-md-2 ">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--BREADCRUMB-->
+    <section>
+      <nav class="px-5">
+        <ol class="breadcrumb breadcrumb-right-arrow">
+          <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="breadcrumb-item active">Noticias</li>
+        </ol>
+      </nav>
+    </section>
+
+    <!--CONTENIDO-->
+    <section>
+
+      <div class="container py-5">
+        <div class="row g-5">
+          <!-- Blog list Start -->
+          <div class="col-lg-8">
+            <div class="row g-5 px-0">
+              <div class="col-md-12 wow slideInUp" data-wow-delay="0.1s"
+                style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                  <div class="product-offer noticia-1" style="height: 400px;">
+                    <img class="img-fluid"
+                      src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/1.jpg"
+                      alt="">
+                    <div class="offer-text px-3">
+                      <h6 class="text-white text-uppercase">26 Mayo 2022</h6>
+                      <a href=""><h3 class="text-white mb-3 titular">INAGURACIÓN DE LOS PABELLONES DE INGENIERÍA CIVIL Y
+                        ARQUITECTURA Y URBANISMO</h3></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s"
+                style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
+                <div class="product-offer " style="height: 200px;">
+                  <img class="img-fluid" src="https://facing.unitru.edu.pe/images/Noticias/Reunin.jpg" alt="">
+                  <div class="offer-text px-3">
+                    <h6 class="text-white text-uppercase">08 Abril 2022</h6>
+                    <a href=""><h3 class="text-white mb-3 subtitular">REUNIÓN DE COORDINACIÓN</h3></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s"
+                style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+                <div class="product-offer mb-0" style="height: 200px;">
+                  <img class="img-fluid" src="https://facing.unitru.edu.pe/images/Noticias/reunin_de_trabajo.jpg"
+                    alt="">
+                  <div class="offer-text px-3">
+                    <h6 class="text-white text-uppercase">31 Marzo 2022</h6>
+                    <a href=""><h3 class="text-white mb-3 subtitular">REUNIÓN CON EL VICERECTOR SOBRE EL DESARROLLO DE TRES
+                      PROYECTOS</h3></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row py-1 mb-3" style="padding:4px;">
+              <div class="container">
+                <div class="row align-items-center py-1" style="background-color: #DCA609;">
+                  <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                      <div class=" text-center font-weight-bold py-2" style="width: 170px;background-color: #1B1811; color: #DCA609;"><span>Tendencia</span> </div>
+                        
+                      <div class="col-10 ml-3 swiper Swipertrending swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                          <div class="swiper-wrapper" id="swiper-wrapper-d86b0a39af810a523" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1458px, 0px, 0px);">
+                            <div class="swiper-slide notice" role="group" aria-label="1 / 4" style="width: 699px; margin-right: 30px;"><a class="text-uppercase font-weight-bold" href="">LOREM IPSUM DOLOR SIT AMET ELIT</a></div>
+                            <div class="swiper-slide swiper-slide-prev notice" role="group" aria-label="2 / 4" style="width: 699px; margin-right: 30px;"><a class="text-uppercase font-weight-bold" href="">LOREM IPSUM DOLOR SIT AMET ELIT DOLOR SIT AMET ELIT</a></div>
+                            <div class="swiper-slide swiper-slide-active notice" role="group" aria-label="3 / 4" style="width: 699px; margin-right: 30px;"><a class="text-uppercase font-weight-bold" href="">LOREM IPSUM DOLOR SIT AMET ELIT</a></div>
+                            <div class="swiper-slide swiper-slide-next notice" role="group" aria-label="4 / 4" style="width: 699px; margin-right: 30px;"><a class="text-uppercase font-weight-bold" href="">LOREM IPSUM DOLOR SIT AMET ELIT</a></div>
+                          </div>
+                          <div class="noticia-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-d86b0a39af810a523" aria-disabled="false"><i class="fa-solid fa-chevron-right"></i></div>
+                          <div class="noticia-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-d86b0a39af810a523" aria-disabled="false"><i class="fa-solid fa-chevron-left"></i></div>
+                          
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row py-3 mb-3">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                      <h3 class="mb-1">MÁS NOTICIAS</h3>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-12 mb-3 mt-1">
+                        <div class="" style="border-bottom-style: solid; border-bottom-width: 3px; width: 100px;border-color: #DCA609;"></div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="position-relative mb-3">
+                              <img class="img-fluid w-100" src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/9.jpg" style="object-fit: cover;">
+                              <div class="bg-white border border-top-0 p-4">
+                                  <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Proyectos</a>
+                                      <a class="text-body" href=""><small>Jan 01, 2045</small></a>
+                                  </div>
+                                  <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                  <p class="m-0">El pabellón destinado para las Escuelas de Ingeniería Civil y Arquitectura se construyó e inauguró en la presente gestión bajo un concepto moderno y funcional, que incluye por primera vez un ascensor para el acceso a sus diversas aulas y laboratorios.</p>
+                              </div>
+                             
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="position-relative mb-3">
+                              <img class="img-fluid w-100" src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/11.jpg" style="object-fit: cover;">
+                              <div class="bg-white border border-top-0 p-4">
+                                  <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Proyectos</a>
+                                      <a class="text-body" href=""><small>Jan 01, 2045</small></a>
+                                  </div>
+                                  <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                  <p class="m-0">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
+                                      rebum clita rebum dolor stet amet justo</p>
+                              </div>
+                           
+                          </div>
+                      </div>
+                      <div class="col-lg-12 mb-3">
+                        <nav aria-label="Page navigation ">
+                          <ul class="pagination pagination-md m-0 masNoticias">
+                            <li class="page-item disabled">
+                              <a class="page-link rounded-0" href="#" aria-label="Previous">
+                                <span aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+                              </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item "><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                              <a class="page-link rounded-0" href="#" aria-label="Next">
+                                <span aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blog list End -->
+
+          <!-- ASIDE -->
+          <div class="col-lg-4">
+            <!-- ÚLTIMAS NOTICIAS -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s"
+              style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+              <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                <h3 class="mb-0">ÚLTIMAS NOTICIAS</h3>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img class="img-fluid"
+                  src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/10.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                <div class="w-100  px-3 d-flex flex-column justify-content-center border border-left-0">
+                  <div class="mb-2">
+                    <div class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Institucional</div>
+                    <a class="text-body"><small>26 Mayo 2022</small></a>
+                  </div>
+                  <a href="noticia_individual.html" class="h6 m-0  text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                </div>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img class="img-fluid"
+                  src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/10.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                <div class="w-100  px-3 d-flex flex-column justify-content-center border border-left-0">
+                  <div class="mb-2">
+                    <div class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Institucional</div>
+                    <a class="text-body" href=""><small>26 Mayo 2022</small></a>
+                  </div>
+                  <a class="h6 m-0  text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                </div>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img class="img-fluid"
+                  src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/10.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                <div class="w-100  px-3 d-flex flex-column justify-content-center border border-left-0">
+                  <div class="mb-2">
+                    <div class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Institucional</div>
+                    <a class="text-body" href=""><small>26 Mayo 2022</small></a>
+                  </div>
+                  <a class="h6 m-0  text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                </div>
+              </div>
+              <div class="d-flex rounded overflow-hidden mb-3">
+                <img class="img-fluid"
+                  src="https://facing.unitru.edu.pe/images/Noticias/Inauguraci%C3%B3n%20de%20pabellones%202022/10.jpg"
+                  style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                <div class="w-100  px-3 d-flex flex-column justify-content-center border border-left-0">
+                  <div class="mb-2">
+                    <div class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Institucional</div>
+                    <a class="text-body" href=""><small>26 Mayo 2022</small></a>
+                  </div>
+                  <a class="h6 m-0  text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                </div>
+              </div>
+        
+            </div>
+            <!-- CATEGORIAS -->
+            <div class="mb-5 wow slideInUp" data-wow-delay="0.1s"
+              style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+              <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                <h3 class="mb-0">CATEGORÍAS</h3>
+              </div>
+              <div class="d-flex flex-wrap m-n1">
+                <a href="" class="btn badge-categoria m-1">Proyectos</a>
+                <a href="" class="btn badge-categoria m-1">Comunicados</a>
+                <a href="" class="btn badge-categoria m-1">Institucional</a>
+                <a href="" class="btn badge-categoria m-1">Innovación</a>
+                <a href="" class="btn badge-categoria m-1">Cultura</a>
+            </div>
+            </div>
+            <!-- Category End -->
+
+          </div>
+          <!-- Sidebar End -->
+        </div>
+      </div>
+
+    </section>
+    <!--CONTADOR-->
+  </main>
+
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="row pt-5 pb-3 pb-md-4 py-lg-5 align-content-center justify-content-center">
+        <div class="col-10">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="d-flex justify-content-center justify-content-md-start">
+                <img src="img/logo_facultad_ingeniera_Reducido.png" style="height: 210px" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+              <div class="row">
+                <div class="col-12 col-lg-6 t-footer py-2">
+                  <h6 style="margin-bottom: 0.2rem">Contacto</h6>
+                  <div class="mb-2" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
+                  <div class="bloque text-white" style="padding-left: 0.8rem;font-size: 15px!important">
+                    <span>
+                      <i class="fas fa-phone-alt"></i> &nbsp; (044) 209020
+                    </span> <br>
+                    <span>
+                      <i class="fas fa-envelope"></i> &nbsp; tdsgunt@unitru.edu.pe
+                    </span> <br>
+                    <span>
+                      <i class="fas fa-globe"></i> &nbsp; https://www.unitru.edu.pe/
+                    </span>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 t-footer py-2">
+                  <h6 style="margin-bottom: 0.2rem">Sobre este Portal</h6>
+                  <div class="mb-3" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
+
+                  <div class=" text-white" style="padding-left: 0.8rem;font-size:15px!important">
+                    <span> Mapa de Sitio </span> <br>
+                    <span> Términos de uso </span> <br>
+                    <span> Políticas de Privacidad </span>
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-6 t-footer py-2">
+                  <h6 style="margin-bottom: 0.2rem">Síguenos en: </h6>
+                  <div class="mb-3" style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;"></div>
+                  <div class="d-flex justify-content-center justify-content-md-start"
+                    style="color: #FFFFFF!important;padding-left: 0.8rem">
+                    <h2 class="px-2">
+                      <i class="fab fa-facebook"></i>
+                    </h2>
+                    <h2 class="px-2">
+                      <i class="fab fa-instagram"></i>
+                    </h2>
+                    <h2 class="px-2">
+                      <i class="fab fa-linkedin"></i>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </footer>
+  <div class="copy-right">
+    <div class="container">
+      <p class="text-center py-3" style="margin-bottom: 0px;font-size: 13px">
+        Copyright © 2022 Facultad de Ingeniería Química. Todos los derechos reservados. Diseñado por Administrador Web.
+      </p>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach((counter) => {
+      counter.innerHTML = '0';
+      const updateCounter = () => {
+        const target = + counter.getAttribute('data-target');
+        const c = + counter.innerHTML;
+        const increment = target / 250;
+        if (c < target) {
+          counter.innerHTML = `${Math.ceil(c + increment)}`;
+        }
+        setTimeout(updateCounter, 1);
+      }
+      updateCounter();
+    })
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".Swipertrending", {
+      spaceBetween: 30,
+      centeredSlides: true,
+       loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".noticia-button-next",
+        prevEl: ".noticia-button-prev",
+      },
+    });
+  </script>
+  <script src="../js/comunicados.js"></script>
+</body>
+
+</html>

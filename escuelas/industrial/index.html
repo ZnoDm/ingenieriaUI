@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="https://facing.unitru.edu.pe/images/Logos/logo_facultad_ingeniera_Reducido.png">
+    <title>FACULTAD DE INGENIERÍA</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- End Font Awesome -->
+    <link rel="stylesheet" href="../../css/navegacion.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/industrial.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="navbare">
+                <a href="../../index.html" class="mr-auto">
+                    <img class="img-logo" src="../../img/FACULTAD_DE_INGENIERA.png" alt="FACULTAD_DE_INGENIERA">
+                </a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" hidden />
+                <label class="menu-icon" for="menu-btn">
+                    <span class="navicon"></span>
+                </label>
+                <ul class="menu">
+                    <li class="has-dropdown">
+                        <a href="#" class="menu-link">
+                            <span class="pr-3">Conócenos</span>
+                            <span class="arrow" style="margin-left: auto;"></span>
+                        </a>
+
+                        <ul class="submenu">
+                            <li>
+                                <a href="../presentacion.html" class="menu-link">
+                                    ¿Quiénes Somos?
+                                </a>
+
+                            </li>
+                            <li>
+
+                                <a href="../acreditación.html" class="menu-link">Acreditacion</a>
+                            </li>
+                            <li>
+
+                                <a href="../autoridades.html" class="menu-link">Autoridades</a>
+                            </li>
+                            <li>
+
+                                <a href="../personaladmin.html" class="menu-link">Personal Administrativo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="menu-link">
+                            <span class="pr-3">Programas Académicos</span>
+                            <span class="arrow"></span>
+                        </a>
+
+                        <ul class="submenu">
+                            <li>
+                                <a href="escuelas/arquitectura.html" class="menu-link">ARQUITECTURA Y URBANISMO</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. CIVIL</a>
+                            </li>
+                            <li>
+                                <a href="escuelas/industrial.html" class="menu-link">ING. INDUSTRIAL</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. MECÁNICA</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. MECATRÓNICA</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. DE MATERIALES</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. METALÚRGICA</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. DE MINAS</a>
+                            </li>
+                            <li>
+                                <a href="" class="menu-link">ING. DE SISTEMAS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="menu-link">
+                            <span class="pr-3">Novedades</span>
+                            <span class="arrow" style="margin-left: auto;"></span>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+
+                                <a href="../novedades/noticias.html" class="menu-link">Noticias</a>
+                            </li>
+                            <li>
+
+                                <a href="autoridades.html" class="menu-link">Publicaciones</a>
+                            </li>
+                            <li>
+
+                                <a href="" class="menu-link">Proyectos</a>
+                            </li>
+                            <li>
+
+                                <a href="" class="menu-link">Translados Y Segunda Especialización</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="lineasInves/lineasInv.html" class="menu-link">
+                            <span class="">Investigación</span>
+                        </a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" class="menu-link">
+                            <span class="">Contactanos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main style="padding-top: 4rem;">
+        <!--PORTADA-->
+        <section id="header-section">
+            <div class="container-fluid">
+                <div class="row align-content-center justify-content-center h-100">
+                    <div class="col-12 px-0">
+                        <div class="header-section" style="height: auto;">
+                            <div class="container">
+                                <div class="row align-content-center w-100 h-100 py-5">
+                                    <div class="col-md-7 col-lg-6 py-5">
+                                        <h1 class="px-4 py-2"
+                                            style="background-color: #333333;border-radius: 2px;color: #fff;">
+                                            <b>INGENIERÍA INDUSTRIAL</b>
+                                        </h1>
+                                    </div>
+                                    <div class="col-md-5 col-lg-6 offset-md-2 ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--BREADCRUMB-->
+        <section>
+            <nav class="px-md-5">
+                <ol class="breadcrumb breadcrumb-right-arrow">
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item active">Ingenieria industrial</li>
+                </ol>
+            </nav>
+        </section>
+        <!--NAVEGADOR-->
+        <section id="indice">
+            <div class="container">
+                <div class="row navegador justify-content-center">
+                    <div class="col-lg-2 col-sm-12">
+                        <a href="index.html">
+                            <h5 class="nav-item text-center py-3"> Información general</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <a href="malla_curricular.html">
+                            <h5 class="nav-item text-center py-3">Malla curricular</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-auto col-sm-6">
+                        <a href="perfiles.html">
+                            <h5 class="nav-item text-center py-3 px-lg-3">Informacion academica</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <a href="docentes.html">
+                            <h5 class="nav-item text-center py-3">Plana docente</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <a href="investigacion.html">
+                            <h5 class="nav-item text-center py-3">Investigación</h5>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="px-md-5">
+                <p class="navegador" style="border-bottom: 1px solid #C9D1D3;"></p>
+            </div>
+        </section>
+        <!--PLABRAS BIENVENIDA-->
+        <section id="palabras-rector" class="my-5">
+            <div class="container">
+                <div style="text-align: justify;" data-aos="fade-up" data-aos-duration="1000">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur error ea porro sapiente
+                        molestias quo est expedita eaque rem ad.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam vel, nam itaque id alias expedita repudiandae dolorum animi voluptatem earum laborum
+                        molestiae cumque labore porro assumenda rem inventore perferendis. Illo! Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Distinctio ipsum dolorum repellendus culpa fugiat inventore
+                        sapiente voluptatum.</p>
+                </div>
+            </div>
+
+        </section>
+        <!--CAMPO LABORAL-->
+        <section>
+            <div class="container-fluid bg-primary bg-appointment">
+                <div class="container">
+                    <div class="row laboral gx-5">
+                        <div class="col-lg-5 py-2">
+                            <div class="box" data-aos="fade-right" data-aos-duration="1000">
+                                <h5>Grado obtenido</h5>
+                                <hr class="short" style="width: 4.2087rem; opacity: 1;">
+                                <p>Bachiller en Ingeniería Industrial.</p>
+                            </div>
+                            <div class="box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                                <h5>Duración</h5>
+                                <hr class="short" style="width: 4.2087rem; opacity: 1;">
+                                <p>10 semestres académicos en 5 años.</p>
+                            </div>
+                            <div class="box" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                                <h5>Sedes</h5>
+                                <hr class="short" style="width: 4.2087rem; opacity: 1;">
+                                <p>Trujillo - Jequetepeque</p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
+                                data-wow-delay="0.6s"
+                                style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
+                                <h3 class="text-white mb-4">Campo Laboral del Ingeniero Industrial</h3>
+                                <div class="row g-3 campos" style="text-align: left;">
+                                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s"
+                                        style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                                        <div class="col-12">
+                                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i></h5>
+                                            <p>Empresas en sus diferentes áreas: Operaciones, Logística, Finanzas,
+                                                Ventas, Marketing, Recursos Humanos, entre otros.</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i></h5>
+                                            <p>Empresas Consultoras de Ingeniería y proyectos</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s"
+                                        style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
+                                        <div class="col-12">
+                                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i></h5>
+                                            <p>Empresas logísticas, Cadenas de Suministro, Planeación de Operaciones.
+                                            </p>
+                                        </div>
+                                        <div class="col-12" style="display: flex;">
+                                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i></h5>
+                                            <p>Organizaciones públicas, privadas, nacionales, multinacionales.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--EQUIPOS-->
+        <section style="background-color: #EBF0F8;">
+            <div class="container pb-5">
+                <div class="row py-3 pt-5 equipos">
+                    <div
+                        class="col-md-12 col-md-offset-3 text-center section-heading probootstrap-animate fadeInUp probootstrap-animated">
+                        <h2 style="color: #333333;"><b>ALGUNOS DE NUESTROS <span style="color: #0049AD;">
+                                    EQUIPOS</span></b>
+                        </h2>
+
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui
+                            tempore natus quos quibusdam soluta at.</p>
+                    </div>
+                    <div class="col-12 mt-3 text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJzYse4kMpwlHMpWWcclgBTCfqZ7sZArjSyh29D_gWUHp-vdNJaI5d8mj4mG_hIwUPOKI&usqp=CAU"
+                            alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJzYse4kMpwlHMpWWcclgBTCfqZ7sZArjSyh29D_gWUHp-vdNJaI5d8mj4mG_hIwUPOKI&usqp=CAU"
+                            alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJzYse4kMpwlHMpWWcclgBTCfqZ7sZArjSyh29D_gWUHp-vdNJaI5d8mj4mG_hIwUPOKI&usqp=CAU"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated mb-1">
+                            <div class="icon">1</div>
+                            <div class="text">
+                                <h5>Consectetur Adipisicing</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                    natus quos quibusdam soluta at.</p>
+                            </div>
+                        </div>
+                        <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated mb-1">
+                            <div class="icon">2</div>
+                            <div class="text">
+                                <h5>Aliquid Dolorum Saepe</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                    natus quos quibusdam soluta at.</p>
+                            </div>
+                        </div>
+                        <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated mb-1">
+                            <div class="icon">3</div>
+                            <div class="text">
+                                <h5>Eveniet Tempora Anisi</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                    natus quos quibusdam soluta at.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated mb-1">
+                            <div class="icon">4</div>
+                            <div class="text">
+                                <h5>Laboriosam Quod Dignissimos</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                    natus quos quibusdam soluta at.</p>
+                            </div>
+                        </div>
+
+                        <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated mb-1">
+                            <div class="icon">5</div>
+                            <div class="text">
+                                <h5>Asperiores Maxime Modi</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                    natus quos quibusdam soluta at.</p>
+                            </div>
+                        </div>
+
+                        <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated mb-1">
+                            <div class="icon">6</div>
+                            <div class="text">
+                                <h5>Libero Maxime Molestiae</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore
+                                    natus quos quibusdam soluta at.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END row -->
+            </div>
+        </section>
+        <!--MATRICULADOS Y EGRESADOS-->
+        <section id="contador" class="py-5">
+            <div class="container-fluid">
+                <div class="row matriculados align-content-center justify-content-center">
+                    <div class="col-md-6 pl-md-5" style="z-index: 10;">
+
+                        <h4 style="color: #DCA609;margin-bottom: 20px;"><b>Cuerpo estudiantil del
+                                último
+                                periodo y egresados 2022</b></h4>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.Lorem ipsum
+                            dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-6 px-0 about-img">
+                        <div class="container-contador " style="height: 100px;">
+                            <div class="row align-content-center justify-content-center w-100">
+                                <div class="col-12">
+                                    <div class="counter-container px-5 text-right">
+                                        <div class="counter" data-target="572"
+                                            style="font-size: 3rem;font-weight: bold;"> 1500</div>
+                                        <h5>MATRICULADOS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="container-contador " style="height: 100px;">
+                            <div class="row align-content-center justify-content-center w-100">
+                                <div class="col-12">
+                                    <div class="counter-container px-5 text-right">
+                                        <div class="counter" data-target="153"
+                                            style="font-size: 3rem;font-weight: bold;"> 1500</div>
+                                        <h5>EGRESADOS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <br>
+
+
+        <!--INFRAESTRUCTURA-->
+        <section class="pb-5" id="infraestructura">
+            <div class="container">
+                <div class="row mb-3" style="text-align: left;">
+
+                    <div class="col-12">
+                        <h2 class="pt-4" style="color: #333333;font-weight: bold;">INFRAESTRUCTURA
+                        </h2>
+                        <div class="border-title">
+                            <span class="border-span"></span>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                        aria-controls="swiper-wrapper-226a9e92229d46a4"></div>
+                    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                        aria-controls="swiper-wrapper-226a9e92229d46a4"></div>
+                    </div>
+
+                </div>
+
+                <div class="row infraestructura">
+                    <div class="col-12">
+                        <div class="swiper swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+                            style="overflow: visible;">
+                            <div class="pb-5 swiper mySwiper swiper-initialized" style="width: 100%;overflow: hidden;">
+                                <div class="swiper-wrapper" id="swiper-wrapper-754a7500dd22c1039" aria-live="polite">
+                                    <div class="swiper-slide swiper-slide-active cards" role="group" aria-label="1 / 6"
+                                        style="width: 402px; margin-right: 10px;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="http://www.ind.unitru.edu.pe/images/Infraestructura/IMAG1773_opt.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 info">
+                                                <p>Área Informática y de Cómputo de la Escuela
+                                                    Cómputo II
+                                                    PrevNext
+
+                                                    12345</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-next cards" role="group" aria-label="2 / 6"
+                                        style="width: 402px; margin-right: 10px;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="http://www.ind.unitru.edu.pe/images/Infraestructura/IMAG1789_opt%201.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 info">
+                                                <p>Área Informática y de Cómputo de la Escuela
+                                                    Cómputo II
+                                                    PrevNext
+
+                                                    12345</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide cards" role="group" aria-label="3 / 6"
+                                        style="width: 402px; margin-right: 10px;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="http://www.ind.unitru.edu.pe/images/Infraestructura/IMAG1773_opt.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 info">
+                                                <p>Área Informática y de Cómputo de la Escuela
+                                                    Cómputo II
+                                                    PrevNext
+
+                                                    12345</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide cards" role="group" aria-label="4 / 6"
+                                        style="width: 402px; margin-right: 10px;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="http://www.ind.unitru.edu.pe/images/Infraestructura/IMAG1789_opt%201.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 info">
+                                                <p>Área Informática y de Cómputo de la Escuela
+                                                    Cómputo II
+                                                    PrevNext
+
+                                                    12345</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide cards" role="group" aria-label="5 / 6"
+                                        style="width: 402px; margin-right: 10px;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="http://www.ind.unitru.edu.pe/images/Infraestructura/IMAG1773_opt.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 info">
+                                                <p>Área Informática y de Cómputo de la Escuela
+                                                    Cómputo II
+                                                    PrevNext
+
+                                                    12345</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide cards" role="group" aria-label="6 / 6"
+                                        style="width: 402px; margin-right: 10px;">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="http://www.ind.unitru.edu.pe/images/Infraestructura/IMAG1789_opt%201.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 info">
+                                                <p>Área Informática y de Cómputo de la Escuela
+                                                    Cómputo II
+                                                    PrevNext
+
+                                                    12345</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9"></span></div>
+                           
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--TESIS-->
+        <br>
+        <section class="tesis2">
+            <div class="container">
+                <div class="row">
+                    <div class="p-5 col-lg-7 col-md-12 wrapper-border">
+                        <div class="about-caption">
+
+                            <div class="">
+                                <div class="col-12 d-flex justify-content-between">
+                                    <h2 style="color: #ffffff;"><b>TESIS</b><span style="color: #DCA609;"> MÁS RECIENTES
+                                        </span>
+                                    </h2>
+                                   
+                                    <!-- <a  target="_blank"
+                                        href="https://dspace.unitru.edu.pe/handle/UNITRU/895"
+                                        style="background-color: #DCA609;" class="btn px-3">Ver más</a> -->
+                                        <a href="https://dspace.unitru.edu.pe/handle/UNITRU/895" style="background-color: #DCA609;height: min-content;" target="_blank" class="btn btn-sm py-2">VER MÁS</a>
+                                </div>
+                                <div class="ml-3 border-title" style="background-color:#DCA609;">
+                                    <span class="border-span"style="background-color:#DCA609;" ></span>
+                                </div>
+                                <div class="mt-3 tesis" style="position: relative;">
+                                    <div class="col-lg-12">
+                                        <div class="button-next" tabindex="0" role="button" aria-label="Next slide"
+                                            aria-controls="swiper-wrapper-226a9e92229d46a4"><i
+                                                class="fas fa-angle-up"></i>
+                                        </div>
+                                        <div class="button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                                            aria-controls="swiper-wrapper-226a9e92229d46a4"><i
+                                                class="fas fa-angle-down"></i></div>
+                                        <div
+                                            class="swiper swiperTesis swiper-initialized swiper-vertical swiper-pointer-events swiper-backface-hidden">
+                                            <div class="swiper-wrapper" id="swiper-wrapper-7aedba307359fb10"
+                                                aria-live="polite">
+                                                <div class="swiper-slide swiper-slide-active" role="group"
+                                                    aria-label="1 / 4">
+                                                    <div>
+                                                        <p class="titulo">Propuesta de plan estratégico organizacional
+                                                            para la reactivación
+                                                            de
+                                                            la empresa de fabricación de muebles Sifuentes</p>
+                                                        <p class="autores">Alayo Sifuentes, Hiajaira Lizbeth; Amaya
+                                                            Tafur, Luis Alberto</p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-slide swiper-slide-next container" role="group"
+                                                    aria-label="2 / 4">
+                                                    <div>
+                                                        <p class="titulo">Propuesta para la gestión de riesgos en la
+                                                            obra creación del
+                                                            servicio
+                                                            de agua potable y saneamiento rural en el caserío de Agua
+                                                            Blanca, distrito de
+                                                            Huamachuco</p>
+                                                        <p class="autores">Cerna Fernandez, Ector Fernando</p>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide container" role="group" aria-label="3 / 4">
+                                                    <div>
+                                                        <p class="titulo">Propuesta de plan estratégico organizacional
+                                                            para la reactivación
+                                                            de
+                                                            la empresa de fabricación de muebles Sifuentes</p>
+                                                        <p class="autores">Alayo Sifuentes, Hiajaira Lizbeth; Amaya
+                                                            Tafur, Luis Alberto</p>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide container" role="group" aria-label="4 / 4">
+                                                    <div>
+                                                        <p class="titulo">Propuesta para la gestión de riesgos en la
+                                                            obra creación del
+                                                            servicio
+                                                            de agua potable y saneamiento rural en el caserío de Agua
+                                                            Blanca, distrito de
+                                                            Huamachuco</p>
+                                                        <p class="autores">Cerna Fernandez, Ector Fernando</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 p-0 about-img">
+                        <img src="https://blogs.unitec.mx/content/dam/blogs/imagenes/corp_samara/cosas-que-no-sabias-del-origen-y-la-historia-de-la-ingeniera-industrial-3.jpg"
+                            alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+<!--ACREDITACION-->
+<!-- <section class=" justify-content-center py-5 " id="acreditación" style="text-align: center;">
+    <div class="container-fluid">
+        <h4 style="color: #0049AD;margin-bottom: 20px;"><b>Acreditada por:</b></h4>
+        <div class="acreditacion py-3" style="border-bottom: 1px solid #dee2e6!important;">
+            <img src="http://icacit.org.pe/recursos/Logo_ICACIT_Full_Color.png" alt="">
+        </div>
+        <h4 style="color: #DCA609;margin-bottom: 20px;"><b>Nuestras becas:</b></h4>
+        <div class="becas py-3 px-5 col-md-12 d-md-flex justify-content-md-around">
+
+            <img src="http://www.ind.unitru.edu.pe/images/Becas/ESTUDIA%20EN%20AUSTRALIA.png" alt="">
+            <img src="http://www.ind.unitru.edu.pe/images/Becas/PRONABEC.png" alt="">
+            <img src="http://www.ind.unitru.edu.pe/images/Becas/NESOLATINOAMERICA.png" alt="">
+            <img src="http://www.ind.unitru.edu.pe/images/Becas/FRANCIA%20EN%20EL%20PERU.png" alt="">
+        </div>
+
+    </div>
+</section> -->
+
+
+<section class="d-md-flex justify-content-center " id="acreditación"
+            style="text-align: center;">
+            <div class="acreditacion py-5 px-5">
+                <h4 style="color: #0049AD;"><b>Acreditada por:</b></h4>
+                <img src="http://icacit.org.pe/recursos/Logo_ICACIT_Full_Color.png"
+                    alt="">
+            </div>
+            <div class="becas py-5 px-5">
+                <h4 style="color: #DCA609;margin-bottom: 15px;"><b>Nuestras Becas:</b></h4>
+                <img src="http://www.ind.unitru.edu.pe/images/Becas/ESTUDIA%20EN%20AUSTRALIA.png" alt="">
+                <img src="http://www.ind.unitru.edu.pe/images/Becas/PRONABEC.png" alt="">
+                <img src="http://www.ind.unitru.edu.pe/images/Becas/NESOLATINOAMERICA.png" alt="">
+                <img src="http://www.ind.unitru.edu.pe/images/Becas/FRANCIA%20EN%20EL%20PERU.png" alt="">
+            </div>
+            
+
+        </section>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row pt-5 pb-3 pb-md-4 py-lg-5 align-content-center justify-content-center">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="d-flex justify-content-center justify-content-md-start">
+                                <img src="../img/logo_facultad_ingeniera_Reducido.png" style="height: 210px" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-8">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 t-footer py-2">
+                                    <h6 style="margin-bottom: 0.2rem">Contacto</h6>
+                                    <div class="mb-2"
+                                        style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;">
+                                    </div>
+                                    <div class="bloque text-white"
+                                        style="padding-left: 0.8rem;font-size: 15px!important">
+                                        <span>
+                                            <i class="fas fa-phone-alt"></i> &nbsp; (044) 209020
+                                        </span> <br>
+                                        <span>
+                                            <i class="fas fa-envelope"></i> &nbsp; tdsgunt@unitru.edu.pe
+                                        </span> <br>
+                                        <span>
+                                            <i class="fas fa-globe"></i> &nbsp; https://www.unitru.edu.pe/
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6 t-footer py-2">
+                                    <h6 style="margin-bottom: 0.2rem">Sobre este Portal</h6>
+                                    <div class="mb-3"
+                                        style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;">
+                                    </div>
+
+                                    <div class=" text-white" style="padding-left: 0.8rem;font-size:15px!important">
+                                        <span> Mapa de Sitio </span> <br>
+                                        <span> Términos de uso </span> <br>
+                                        <span> Políticas de Privacidad </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6 t-footer py-2">
+                                    <h6 style="margin-bottom: 0.2rem">Síguenos en: </h6>
+                                    <div class="mb-3"
+                                        style="border-bottom-style: solid; border-bottom-width: 3px; width: 40px;">
+                                    </div>
+                                    <div class="d-flex justify-content-center justify-content-md-start"
+                                        style="color: #FFFFFF!important;padding-left: 0.8rem">
+                                        <h2 class="px-2">
+                                            <i class="fab fa-facebook"></i>
+                                        </h2>
+                                        <h2 class="px-2">
+                                            <i class="fab fa-instagram"></i>
+                                        </h2>
+                                        <h2 class="px-2">
+                                            <i class="fab fa-linkedin"></i>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </footer>
+    <div class="copy-right">
+        <div class="container">
+            <p class="text-center py-3" style="margin-bottom: 0px;font-size: 13px">
+                Copyright © 2022 Facultad de Ingeniería Química. Todos los derechos reservados. Diseñado por
+                Administrador Web.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const counters = document.querySelectorAll('.counter');
+        counters.forEach((counter) => {
+            counter.innerHTML = '0';
+            const updateCounter = () => {
+                const target = + counter.getAttribute('data-target');
+                const c = + counter.innerHTML;
+                const increment = target / 250;
+                if (c < target) {
+                    counter.innerHTML = `${Math.ceil(c + increment)}`;
+                }
+                setTimeout(updateCounter, 1);
+            }
+            updateCounter();
+        })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- AOS ANIMATION JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- SLIDE INFRAESTRUCTURA JS -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1
+            , spaceBetween: 10
+            , loop: true
+
+            , pagination: {
+                el: ".swiper-pagination"
+                , clickable: true
+                ,
+            }
+            , breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1
+                    , spaceBetween: 10
+                    ,
+                }
+                , "@0.75": {
+                    slidesPerView: 1
+                    , spaceBetween: 20
+                    ,
+                }
+                , "@1.00": {
+                    slidesPerView: 2
+                    , spaceBetween: 30
+                    ,
+                }
+                , "@1.50": {
+                    slidesPerView: 3
+                    , spaceBetween: 30
+                    ,
+                }
+                ,
+            }
+            , navigation: {
+                nextEl: ".swiper-button-next"
+                , prevEl: ".swiper-button-prev"
+                ,
+            }
+            ,
+        });
+
+    </script>
+    <!-- SLIDE TESIS JS -->
+    <script>
+        var swiper = new Swiper(".swiperTesis", {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            loop: true,
+            direction: "vertical",
+            pagination: {
+                el: ".Tesis-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".button-next"
+                , prevEl: ".button-prev"
+                ,
+            }
+
+        });
+    </script>
+</body>
+
+</html>

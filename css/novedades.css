@@ -1,0 +1,257 @@
+.header-section{
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(rgba(0,55,128,0.2),rgba(27,24,17,0.8)),url(https://img.freepik.com/fotos-premium/trabajador-construccion-doble-exposicion-mascara-computadora-portatil-mano-construccion-iconos_34200-502.jpg?w=2000);
+}
+
+
+/* ULTIMAS NOTICIAS */
+.badge-primary{
+  background-color:#DCA609;
+  border-radius:0;
+}
+  .section-title.section-title-sm::before {
+    width: 90px;
+    height: 3px;
+  }
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: #DCA609;
+    border-radius: 2px;
+  }
+  .section-title.section-title-sm::after {
+    -webkit-animation: section-title-run-sm 5s infinite linear;
+    animation: section-title-run-sm 5s infinite linear;
+  }
+  .section-title.section-title-sm::after {
+    width: 4px;
+    height: 3px;
+  }
+  .section-title::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 5px;
+    bottom: 0px;
+    background: #FFFFFF;
+    -webkit-animation: section-title-run 5s infinite linear;
+    animation: section-title-run 5s infinite linear;
+  }
+  .section-title.section-title-sm::before {
+    width: 90px;
+    height: 3px;
+  }
+  @-webkit-keyframes section-title-run-sm {
+    0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
+}
+
+.product-offer {
+    position: relative;
+    overflow: hidden;
+}
+.titular{
+  font-weight: bold;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.product-offer img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.product-offer .offer-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*background: rgba(61, 70, 77, 0.5);*/
+    background: linear-gradient(to bottom, rgba(61, 70, 77, 0.5) 70%, rgba(27, 24, 17, 1));
+    z-index: 1;
+}
+.subtitular{
+  font-size:20px;
+  font-weight: bold;
+}
+.product-offer:hover img {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.col-md-12,.col-md-6{
+    padding:4px!important;
+}
+.noticia-1{
+    margin-bottom:0.3px;
+}
+
+.noticia-button-next,.noticia-button-prev{
+  height: 30px!important;
+  width: 30px!important;
+  border:2px solid black;
+  top: 6px;
+  font-size: 15px;
+  line-height: 30px;
+  background: #DCA609;
+  color: black !important;
+  position: absolute;
+  z-index: 3;
+}
+.noticia-button-next{
+  right:0;
+}
+.noticia-button-prev{
+  right:35px;
+}
+.noticia-button-next i,
+.noticia-button-prev i {
+margin-left:8px;
+}
+.notice{
+  top:20%;
+}
+.active a{
+  background-color:#DCA609!important;
+  border-color:#DCA609!important;
+  
+}
+
+.masNoticias a{
+  color:black!important;
+}
+
+/* PUBLICACIONES */
+
+.publicaciones{
+  padding: 0.75rem;
+}
+.position-relative {
+  position: relative !important;
+}
+.publicaciones .team-social {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 55, 128, .75);
+  overflow: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+.publicaciones:hover .team-social {
+  height: 100%;
+  opacity: 1;
+}
+
+.publicaciones:hover::after {
+  height: 100%;
+  background: #0049AD;
+}
+.publicaciones::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  transition: .5s;
+  z-index: -1;
+}
+.bg-publicacion {
+  background-color: #E8F2FE !important;
+}
+.publicaciones h5{
+  color: #003780;
+}
+.btn-outline-primary {
+  color: #DCA609;
+  border-color: #DCA609;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.publicaciones .btn-outline-primary:hover {
+  color: #000;
+  background-color: #DCA609;
+  border-color: #DCA609;
+}
+.publicaciones .btn.btn-primary, .btn.btn-outline-primary:hover {
+  color: #1B1811;
+}
+
+/* CATEGORIAS */
+.badge-categoria{
+  background-color:white;
+  border:2px solid #DCA609;
+}
+.badge-categoria:hover{
+  background-color:#DCA609;
+}
+
+.Proyectos-button-next{
+  background:rgba(0,73,173,0.6);
+  border-radius:10px;
+  right: 10px;
+  position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Proyectos-button-prev{
+  background:rgba(0,73,173,0.6);
+  border-radius:10px;
+  left: 10px;
+  position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Proyectos-button-next:after, .Proyectos-button-next:after {
+  content: 'next';
+  font-family: swiper-icons;
+  font-size: 30px;
+}
+.Proyectos-button-prev:after,  .Proyectos-button-prev:after {
+  content: 'prev';
+  font-family: swiper-icons;
+  font-size: 30px;
+}
